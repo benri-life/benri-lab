@@ -8,103 +8,120 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Noto Sans JP', 'Inter', sans-serif; }
-        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%); }
-        .cta-gradient { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
-        .cta-gradient:hover { background: linear-gradient(135deg, #d97706 0%, #b45309 100%); }
+        .hero-custom-gradient { background: linear-gradient(135deg, #09111f 0%, #172554 50%, #1e3a8a 100%); }
+        .cta-custom-gradient { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+        .cta-custom-gradient:hover { background: linear-gradient(135deg, #d97706 0%, #b45309 100%); }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
-    <header class="hero-gradient text-white py-12 px-4 shadow-xl">
-        <div class="max-w-3xl mx-auto text-center">
-            <span class="inline-block bg-amber-400 text-slate-900 text-xs font-extrabold px-3 py-1 rounded-full mb-4 tracking-wide shadow">
-                🎓 知的オープン学習＆キャリア戦略の決定版
+    <header class="hero-custom-gradient text-white py-16 px-4 shadow-2xl relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10 space-y-4">
+            <span class="inline-block bg-amber-400 text-slate-900 text-xs font-black px-3.5 py-1.5 rounded-full tracking-wide shadow">
+                🎓 知的オープン学習＆国家資格キャリア戦略の決定版
             </span>
-            <h1 class="text-2xl sm:text-4xl font-black leading-tight mb-4">
+            <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black leading-tight">
                 「高い学費は要らない」自宅で最高峰の学びを得る独学ハックと、資格直結のキャリア戦略
             </h1>
-            <p class="text-sm sm:text-base text-blue-100 font-medium">
-                無料の大学公開講座やMOOCsで知識のインプットを最大化し、国家資格で市場価値を証明する独自のロードマップを公開。
+            <p class="text-sm sm:text-base text-blue-100 max-w-2xl mx-auto font-medium leading-relaxed">
+                無料の大学公開講座やMOOCsで知識のインプットを最大化し、国家資格で市場価値を証明する独自のロードマップを完全公開。
             </p>
         </div>
     </header>
 
-    <main class="max-w-3xl mx-auto px-4 py-8 sm:py-12">
-        <article class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 sm:p-10 mb-8 space-y-8">
+    <main class="max-w-3xl mx-auto px-4 py-10 sm:py-16">
+        <article class="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-6 sm:p-12 space-y-10">
             
-            <div class="space-y-4">
-                <p class="text-lg leading-relaxed font-medium">
+            <!-- Intro Paragraphs -->
+            <div class="space-y-4 text-slate-700 text-base sm:text-lg">
+                <p class="font-medium text-slate-900">
                     「仕事に活かせる専門知識を学び直したい。けれど、今から大学院に通ったり高額な専門スクールに投資する余裕はない…」
                 </p>
-                <p class="leading-relaxed text-slate-600">
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
                     社会人として働きながらリスキリングを志すとき、誰もが最初にお金と時間の壁にぶつかります。私もかつて、分厚い専門書を買い込んでは専門用語の高さに挫折し、自己嫌悪に陥る日々を送っていました。
                 </p>
-                <p class="leading-relaxed text-slate-600">
-                    しかし、インターネット上に広がるオープンな教育プラットフォームを活用し始めてから、インプットの質が劇的に変わりました。本記事では、一切の盗用や型通りのまとめではなく、実際に私が検証・活用した「知的インプットの手法」と、そこで得た知識を確実なキャリアアップ（国家資格一発合格）に昇華させる実践知を完全オリジナルでお伝えします。
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
+                    しかし、インターネット上に広がるオープンな教育プラットフォームを活用し始めてから、インプットの質が劇的に変わりました。本記事では、一切の模倣や型通りのまとめではなく、実際に私が検証・活用した「知的インプットの手法」と、そこで得た知識を確実なキャリアアップ（国家資格一発合格）に昇華させる実践知をお伝えします。
                 </p>
             </div>
 
-            <div class="bg-blue-50 border-l-4 border-blue-500 p-5 rounded-r-xl space-y-2">
-                <h3 class="font-bold text-blue-900 text-base sm:text-lg">💡 知的オープン化（MOOCs・OCW）の本質</h3>
-                <p class="text-sm text-blue-800 leading-relaxed">
+            <!-- Callout Box -->
+            <div class="bg-blue-50/80 border-l-4 border-blue-600 p-6 rounded-r-2xl space-y-2">
+                <h3 class="font-black text-blue-900 text-base sm:text-lg">💡 知的オープン化（MOOCs・OCW）の本質</h3>
+                <p class="text-sm sm:text-base text-blue-800 leading-relaxed">
                     ハーバードやMIT、国内の主要大学が提供するオープン講義（MOOCsやOCW）は、単なる「動画の視聴」ではありません。「学びへの意欲さえたければ、経済格差や地理的条件に関わらず最高峰の知にアクセスできる」という現代最大の知的インフラストラクチャーです。これをどう使い倒すかが、個人の市場価値を左右します。
                 </p>
             </div>
 
+            <!-- Section 1 -->
             <div class="space-y-6">
-                <h2 class="text-xl sm:text-2xl font-black text-slate-900 border-b-2 border-blue-500 pb-2">
+                <h2 class="text-xl sm:text-2xl font-black text-slate-900 border-b-2 border-blue-600 pb-3">
                     1. 知識を「点」から「面」に変えるインプット設計
                 </h2>
-                <p class="leading-relaxed text-slate-600">
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
                     ただ何となく有名な大学講義の動画を眺めていても、それは単なる娯楽（知的好奇心の消費）で終わってしまいます。社会人が限られた時間の中で成果を出すためには、以下の3ステップで学習の構造化を行う必要があります。
                 </p>
-                <ul class="list-disc pl-6 space-y-2 text-slate-600 text-sm sm:text-base">
-                    <li><strong>目的の明確化：</strong> 「なぜこの分野を学ぶのか（業務上の課題解決か、将来の資格のためか）」を最初に定義する。</li>
-                    <li><strong>スキマ時間の固定化：</strong> まとめて2時間取るのではなく、通勤や休憩の15分を毎日ルーティン化する。</li>
-                    <li><strong>アウトプットの連動：</strong> 聴講した内容を自分の言葉で1行のメモにまとめ、SNSやノートに言語化する。</li>
-                </ul>
+                <div class="grid sm:grid-cols-3 gap-4 pt-2">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <div class="font-bold text-blue-600 text-sm mb-1">Step 01</div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-1">目的の明確化</h4>
+                        <p class="text-xs text-slate-600">なぜ学ぶのか（業務上の課題か、資格のためか）を定義する。</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <div class="font-bold text-blue-600 text-sm mb-1">Step 02</div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-1">スキマ時間の固定化</h4>
+                        <p class="text-xs text-slate-600">まとめて時間を取るのではなく、通勤・休憩の15分をルーティン化。</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <div class="font-bold text-blue-600 text-sm mb-1">Step 03</div>
+                        <h4 class="font-bold text-slate-900 text-sm mb-1">アウトプット連動</h4>
+                        <p class="text-xs text-slate-600">聴講した内容を自分の言葉で1行メモにまとめ、言語化する。</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="space-y-6 pt-4 border-t border-slate-200">
-                <h2 class="text-xl sm:text-2xl font-black text-slate-900 border-b-2 border-amber-500 pb-2">
+            <!-- Section 2 -->
+            <div class="space-y-6 pt-6 border-t border-slate-200">
+                <h2 class="text-xl sm:text-2xl font-black text-slate-900 border-b-2 border-amber-500 pb-3">
                     2. インプットの次は「国家資格」という明確な実績を作る
                 </h2>
-                <p class="leading-relaxed text-slate-600">
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
                     無料のオンライン講義や独学で「知識がついた」と満足しても、それが客観的な市場評価に直結するとは限りません。採用市場や社内評価において最も強力な武器になるのは、やはり**「国家資格」**という確かな証です。
                 </p>
-                <p class="leading-relaxed text-slate-600">
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
                     「忙しい社会人が、働きながら最短で合格を掴み取るにはどうすればいいか？」——そこで多くの合格者が活用しているのが、全日本情報学習振興協会が提供するオンライン試験対策講座**『SMART合格講座』**です。無駄な遠回りを一切排除し、試験の核心だけを突くカリキュラムは、多忙なビジネスパーソンの強い味方となります。
                 </p>
             </div>
 
-            <div class="bg-gradient-to-br from-slate-900 to-blue-900 rounded-2xl p-6 sm:p-8 text-white text-center space-y-6 shadow-xl my-10">
-                <span class="bg-amber-400 text-slate-900 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow">
+            <div class="bg-gradient-to-br from-slate-900 to-blue-950 rounded-3xl p-6 sm:p-10 text-white text-center space-y-6 shadow-2xl my-10 border border-blue-500/30">
+                <span class="bg-amber-400 text-slate-900 text-xs font-black px-3.5 py-1.5 rounded-full tracking-wider shadow">
                     👑 未来を変える最高の自己投資
                 </span>
-                <h3 class="text-xl sm:text-2xl font-black leading-snug">
+                <h3 class="text-2xl sm:text-3xl font-black leading-snug">
                     「いつか取ろう」を「今、合格する」に変える。
                 </h3>
-                <p class="text-sm sm:text-base text-slate-300 max-w-lg mx-auto">
+                <p class="text-sm sm:text-base text-slate-300 max-w-lg mx-auto leading-relaxed">
                     知識のインプットから、確実な国家資格の合格へ。最短ルートでキャリアを切り拓く公式講座の詳細はこちらから！
                 </p>
 
-                <!-- Exact A8 affiliate banner and link provided by user -->
-                <div class="flex flex-col items-center justify-center space-y-4 pt-2">
-                    <a href="https://px.a8.net/svt/ejp?a8mat=4BE9CZ+C9RNN6+4LOQ+6BMG1" rel="nofollow" target="_blank" class="inline-block transform transition hover:scale-105">
+                <!-- Official A8 affiliate banner and link provided by user -->
+                <div class="flex flex-col items-center justify-center space-y-5 pt-3">
+                    <a href="https://px.a8.net/svt/ejp?a8mat=4BE9CZ+C9RNN6+4LOQ+6BMG1" rel="nofollow" target="_blank" class="inline-block transform transition hover:scale-105 shadow-xl rounded-xl overflow-hidden">
                         <img border="0" width="300" height="250" alt="SMART合格講座" src="https://www25.a8.net/svt/bgt?aid=261005795742&wid=001&eno=01&mid=s00000021473001062000&mc=1">
                     </a>
                     <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=4BE9CZ+C9RNN6+4LOQ+6BMG1" alt="">
 
-                    <a href="https://px.a8.net/svt/ejp?a8mat=4BE9CZ+C9RNN6+4LOQ+6BMG1" rel="nofollow" target="_blank" class="cta-gradient inline-block w-full sm:w-auto px-8 py-4 rounded-xl text-white font-extrabold text-lg shadow-lg transform transition hover:-translate-y-0.5">
+                    <a href="https://px.a8.net/svt/ejp?a8mat=4BE9CZ+C9RNN6+4LOQ+6BMG1" rel="nofollow" target="_blank" class="cta-custom-gradient inline-block w-full sm:w-auto px-8 py-4 rounded-2xl text-white font-extrabold text-lg shadow-xl transform transition hover:-translate-y-0.5">
                         👉 【公式】SMART合格講座の詳細・お申し込みはこちら
                     </a>
-                    <p class="text-xs text-slate-400 mt-2">※Webから簡単にお申し込み・受講スタートできます</p>
+                    <p class="text-xs text-slate-400">※Webから簡単にお申し込み・受講スタートできます</p>
                 </div>
             </div>
 
-            <div class="space-y-4 border-t border-slate-100 pt-6">
-                <h3 class="font-bold text-slate-900 text-lg">最後に：行動した者だけが景色を変えられる</h3>
-                <p class="leading-relaxed text-slate-600 text-sm">
+            <!-- Conclusion -->
+            <div class="space-y-4 pt-6 border-t border-slate-200">
+                <h3 class="font-black text-slate-900 text-lg">最後に：行動した者だけが景色を変えられる</h3>
+                <p class="leading-relaxed text-sm sm:text-base text-slate-600">
                     知識を得るハードルは、現代において限りなくゼロに近づきました。あとは「その知識をどう形にし、自分のキャリアに結びつけるか」というあなたの決断次第です。今日の小さな選択が、数ヶ月後のあなたの人生を劇的に変える第一歩になります。応援しています！
                 </p>
             </div>
@@ -112,7 +129,7 @@
         </article>
     </main>
 
-    <footer class="bg-slate-900 text-slate-400 text-xs py-8 px-4 text-center space-y-2">
+    <footer class="bg-slate-900 text-slate-400 text-xs py-10 px-4 text-center space-y-3 border-t border-slate-800">
         <p>&copy; 2026 知的オープン学習＆キャリア応援メディア All Rights Reserved.</p>
         <p>※当サイトはアフィリエイトプログラムに参加しており、適格販売により収入を得ています。</p>
     </footer>
